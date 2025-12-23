@@ -5,6 +5,8 @@ public class Main {
         System.out.printf("Hello world!");
         System.out.printf("Привет Мир!");
 
+        // Переменные и синтаксис
+
         var dog = 8.0;
         var cat = 3.6;
         var paper = 763789;
@@ -42,12 +44,12 @@ public class Main {
         frog = frog + 4;
         System.out.println("frog=" + frog);
 
-        var boxer_1 = 78.2;
-        var boxer_2 = 82.7;
-        var boxers = boxer_1 + boxer_2;
+        var boxerOne = 78.2;
+        var boxerTwo = 82.7;
+        var boxers = boxerOne + boxerTwo;
         System.out.println("Total weight of boxers =" + boxers);
-        System.out.println("The difference in the weight of boxers =" + (boxer_2 - boxer_1));
-        System.out.println("Remains=" + (boxer_2 % boxer_1));
+        System.out.println("The difference in the weight of boxers =" + (boxerTwo - boxerOne));
+        System.out.println("Remains=" + (boxerTwo % boxerOne));
 
         var timeTotal = 640;// всего часов работы
         var staff = 8; // часов работы на одного сотрудника
@@ -73,7 +75,7 @@ public class Main {
 
         System.out.println("Задача 2");
         float varOne = 27.12f;
-        long varTwe = 987678965549L;
+        long varTwo = 987678965549L;
         float varThree = 2.786f;
         short varFore = 569;
         short varFive = -159;
