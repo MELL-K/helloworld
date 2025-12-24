@@ -6,18 +6,18 @@ public class Main {
         // Переменные: типы и выбор
 
         System.out.println("Задача 1");
-        byte variableOne = 2;
-        System.out.println("Значение переменной variableOne с типом byte равно " + variableOne);
-        short variableTwo = 1000;
-        System.out.println("Значение переменной variableTwo с типом short равно " + variableTwo);
-        int variableThree = 1000000;
-        System.out.println("Значение переменной variableThree с типом int равно " + variableThree);
-        long variableFore = 356L;
-        System.out.println("Значение переменной variableFore с типом long равно " + variableFore);
-        float variableFive = 3.56f;
-        System.out.println("Значение переменной variableFive с типом float равно " + variableFive);
-        double variableSix = 3.568;
-        System.out.println("Значение переменной variableSix с типом double равно " + variableSix);
+        byte variablOne = 2;
+        System.out.println("Значение переменной variableOne с типом byte равно " + variablOne);
+        short variablTwo = 1000;
+        System.out.println("Значение переменной variableTwo с типом short равно " + variablTwo);
+        int variablThree = 1000000;
+        System.out.println("Значение переменной variableThree с типом int равно " + variablThree);
+        long variablFore = 356L;
+        System.out.println("Значение переменной variableFore с типом long равно " + variablFore);
+        float variablFive = 3.56f;
+        System.out.println("Значение переменной variableFive с типом float равно " + variablFive);
+        double variablSix = 3.568;
+        System.out.println("Значение переменной variableSix с типом double равно " + variablSix);
 
         System.out.println("Задача 2");
         float varOne = 27.12f;
