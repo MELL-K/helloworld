@@ -2,60 +2,6 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Hello world!");
-        System.out.printf("Привет Мир!");
-
-        // Переменные и синтаксис
-
-        var dog = 8.0;
-        var cat = 3.6;
-        var paper = 763789;
-        System.out.println("dog=" + dog);
-        System.out.println("cat=" + cat);
-        System.out.println("paper=" + paper);
-
-        dog = dog + 4;
-        cat = cat + 4;
-        paper = paper + 4;
-        System.out.println("dog=" + dog);
-        System.out.println("cat=" + cat);
-        System.out.println("paper=" + paper);
-
-        dog = dog - 3.5;
-        cat = cat - 1.6;
-        paper = paper - 7639;
-        System.out.println("dog=" + dog);
-        System.out.println("cat=" + cat);
-        System.out.println("paper=" + paper);
-
-        var friend = 19;
-        System.out.println("friend=" + friend);
-        friend = friend + 2;
-        System.out.println("friend=" + friend);
-        friend = friend / 7;
-        System.out.println("friend=" + friend);
-
-        var frog = 3.5;
-        System.out.println("frog=" + frog);
-        frog = frog * 10;
-        System.out.println("frog=" + frog);
-        frog = frog / 3.5;
-        System.out.println("frog=" + frog);
-        frog = frog + 4;
-        System.out.println("frog=" + frog);
-
-        var boxerOne = 78.2;
-        var boxerTwo = 82.7;
-        var boxers = boxerOne + boxerTwo;
-        System.out.println("Total weight of boxers =" + boxers);
-        System.out.println("The difference in the weight of boxers =" + (boxerTwo - boxerOne));
-        System.out.println("Remains=" + (boxerTwo % boxerOne));
-
-        var timeTotal = 640;// всего часов работы
-        var staff = 8; // часов работы на одного сотрудника
-        var allstaff = timeTotal / staff; // всего работников
-        System.out.println("Всего работников в компании — " + allstaff + " человек");
-        System.out.println("Если в компании работает " + (allstaff + 94) + " человек, " + "то всего  " + (staff * (allstaff + 94)) + " часов работы может быть поделено между сотрудниками");
 
         // Переменные: типы и выбор
 
@@ -148,5 +94,6 @@ public class Main {
         System.out.println("Маша теперь получает " + employee1New + " рублей. Годовой доход вырос на " + (employee1New * 12 - employee1Year) + "рублей");
         System.out.println("Денис теперь получает " + employee2New + " рублей. Годовой доход вырос на " + (employee2New * 12 - employee2Year) + "рублей");
         System.out.println("Кристина теперь получает " + employee3New + " рублей. Годовой доход вырос на " + (employee3New * 12 - employee3Year) + "рублей");
+
     }
 }
